@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="mdb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">      
+          <a class="navbar-brand" href="#"><img src="images/Unique.png" width="100" height="100" alt=""></a>
+          <div class-="container">
+          <ul class="navbar-nav px-4">
+            <li class="nav-item active">
+              <a class="nav-link container" href="#">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item px-4">
+                <a class="nav-link container" href="#">ABOUT US </a>
+              </li>              
+              <li class="nav-item dropdown px-4">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">                
+                    OUR SERVICES</a>
+                <ul class="dropdown-menu bg-primary">
+                  <li><a class="dropdown-item text-white" href="#">Wedding invitations</a></li>
+                  <hr class="bg bg-white">
+                  <li><a class="dropdown-item text-white" href="#"> Pre-weddiung shoots</a></li>
+                  <hr class="bg bg-white">
+                  <li><a class="dropdown-item text-white" href="#">Wedding shoots</a></li>
+                  <hr class="bg bg-white">
+                  <li><a class="dropdown-item text-white" href="#">Birthday shoots</a></li>
+                  <hr class="bg bg-white">
+                  <li><a class="dropdown-item text-white" href="#">View More..</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown px-4">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">                
+                    PORTFOLIO</a>
+                <ul class="dropdown-menu bg-primary">
+                  <li><a class="dropdown-item text-white" href="#">Associate Work</a></li>
+                  <hr class="bg bg-white">
+                  <li><a class="dropdown-item text-white" href="#">Showreel</a></li>
+                  <hr class="bg bg-white">
+                  <li><a class="dropdown-item text-white" href="#">Clients</a></li>     
+                </ul>
+              </li>
+              </li>              
+              <li class="nav-item px-4">
+                <a class="nav-link container" href="#">FEEDBACK</a>
+              </li>             
+              <li class="nav-item px-4">
+                <a class="nav-link container" href="#">CONTACT</a>
+              </li>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link container bg-primary" href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="nav-item px-1">
+                <a class="nav-link container bg-primary" href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link container bg-primary" href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link container bg-primary" href="#"><i class="fa fa-linkedin"></i></a>
+              </li>            
+              <li class="nav-item px-4">          
+                <button class="btn btn-warning text-dark badge-pill" data-toggle="modal" data-target="#Booking-modal"><b>Start Booking</b></button>
+                <div class="modal fade" id="Booking-modal">
+                 <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                 <div class="modal-header bg-info text-white smoke">
+                <h3>Welcome Back! </h3>
+                <button class="close" data-dismiss="modal">
+                    <i class="fa fa-times-rectangle"></i>
+                </button>       
+                 </div>   
+                 <div class="modal-body bg-light">
+                    <form>
+                        <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Event" >             
+                    </div>
+                    <div class="form-group">   
+                        <input type="date" class="form-control" placeholder="Date of Event">
+                    </div>
+                    <div class="form-group">
+                      <input type="Number" class="form-control" placeholder="Mobile number">
+                  </div>
+                    <div class="form-group">
+                      <input type="@email" class="form-control" placeholder="Email Id">
+                  </div>
+                    <div class="form-group">
+                    <textarea  rows="4" class="form-control" placeholder="Address"></textarea>
+                </div>                
+                <div>
+                    <input type="submit" value="Register" class="btn btn-success">
+                    <a href="#" class="btn btn-danger" data-dismiss="modal">close</a>
+                </div>               
+                    </form>           
+                 </div>
+                </div>            
+                 </div>                   
+                </div>
+            </li> 
+         </ul>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+        </ol>      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/carousel-6.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h1 class="display-5 text-white"><b>We Work with passion</b></h1>
+              <p class="h6"> When words fail, my lens speaks.</p>
+            </div>
+          </div>       
+             <div class="carousel-item">
+              <img src="images/wedding.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5 class="display-3 "><b>Perfect Couple</b></h5>
+                <p class="h4 "> Don't shoot what it looks like, Shoot what it feels like.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel-4.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5 class="display-3 text-warning"><b>Let the image speak for itself.</b></h5>
+                <p class="h4 ">Witnessing beauty through my camera lens.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+    <section class="bg-dark  text-center ">
+      <div class="container p-3">
+      <div class="row mt-5">
+        <div class="col">
+          <h2 class="display-8 text-info"><b><span>UNIQUE</span> PHOTOGRAPHY</b></h2>
+          <p class=" h5 text-info p-5"> <i>Unique Photography is considered to be the best place for visual storytelling. Our love for photography knows no bounds, and we've developed our techniques to perfection. Our photographers have a distinct artistic perspective, a recognizable signature, and a consistent quality across their work. Our main goal is to think creatively and provide exceptional customer service. And that’s why we always stay updated on the latest trends including pre-wedding photography, post-wedding photography, and couple poses.If you are seeking a talented team of photographers for your wedding, events or portraits, we take pride in saying that we have the expertise and passion to bring your vision to life. Our perseverance in the face of obstacles is what sets our company apart from the rest. With a high level of professionalism, we are reliable, punctual, and organised, ensuring a positive experience throughout the entire process. Explore our website, get inspired by our work, and find out why Unique Photography is the perfect choice for capturing your most memorable moments.</i></p>        
+        </div>       
+      </div>
+    </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col bg-secondary text-center">
+          <h1 class="display-4 text-dark p-4"><b>OUR BLOGS:</b></h1>
+        </div>
+      </div>
+    </section>
+    <section class="bg-dark p-4">
+    <div class="row">
+      <div class="col-6 mt-5">
+        <div class="card">
+          <div class="card-body bg-dark">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+          </ol> 
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/swathi akka-1.jpg" class="d-block w-100"   alt="...">             
+            </div>        
+               <div class="carousel-item">
+                <img src="images/swathi akka-2.jpg" class="d-block w-100" alt="...">              
+              </div>
+              <div class="carousel-item">
+                <img src="images/swathi akka-3.jpg" class="d-block w-100" alt="...">               
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+      </div>
+      <div class="col-6 mt-5">        
+        <div class="card">
+          <div class="card-body bg-dark text-center">
+            <h2 class="display-5 text-light p-4 "><b>Wedding Photography :</b></h2>
+            <p class="h5 text-light p-5"><i>"What is more fantastic than a perfect dreamy wedding? It is an honor for us to be there to witness your special day with our candid wedding films that you never dreamt of. We want to create a memory for you with our wedding photographers and cinematographers so that you can relive your day over and over."</i></p>
+            <button class="bg-info badge-pill p-4"><b>Explore wedding album <i class=" fa fa-arrow-right"></i> </b></button>
+            </div>
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+    </section>
+    <section class="bg-dark">
+      <div class="row">
+        <div class="col col-6 mt-5">
+          <div class="card">
+            <div class="card-body bg-dark text-center">
+              <h2 class="dispaly-3 text-light p-4"><b>Birthday Photography :</b></h2>
+              <p class=" h5 text-light p-5"><i>“A Birthday Photo is not one that just captures a fleeting moment in time, it is that which acts as a window and lets you travel back to that special moment every time you look at it, What you've to do is, just smile for the camera or say cheese ”.</i></p>
+              <button class="bg-warning badge-pill  p-4"><b>Explore More <i class=" fa fa-arrow-right"></i> </b></button>
+            </div>
+          </div>
+        </div>
+        <div class="col col-6 mt-5">
+          <div class="card">
+            <div class="card-body bg-dark">
+              <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+                </ol> 
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/birthday-1.jpg" class="d-block w-100"   alt="...">                   
+                  </div>        
+                     <div class="carousel-item">
+                      <img src="images/birthday-2.jpg" class="d-block w-100" alt="...">               
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/birthday-3.jpg" class="d-block w-100" alt="...">                     
+                    </div>
+                  </div>             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-secondary p-5">
+      <div class="container ">
+      <div class="row" >
+      <div class=" col-md-3 text-light text-center">
+        <h2 class=" display-4">12</h2>
+       </div>
+       <div class=" col-md-3 text-light text-center">
+        <h2 class=" display-4" >7000+</h2>
+       </div>
+       <div class="col-md-3 text-light text-center">
+        <h2 class=" display-4">200+</h2>
+       </div>
+       <div class=" col-md-3 text-light text-center">
+        <h2 class=" display-4">1</h2>
+       </div>
+      </div>  
+    <div class="row" >
+      <div class=" col-md-3 text-light text-center">
+        <p class="h4">locations<p>
+       </div>
+       <div class=" col-md-3 text-light text-center">
+        <p class="h4">events</p>
+       </div>
+       <div class="col-md-3 text-light text-center">
+        <p class="h4">employees</p>
+       </div>
+       <div class=" col-md-3 text-light text-center">
+        <p class="h4">dream</p>
+       </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    <section class="bg-dark ">
+      <div class="row">
+        <div class="col text-center mt-4">
+          <h2 class="display-4 text-light p-4">BEST OF 2023 :</h2>
+          <p class="h5 text-light p-4"><i>We have experience working on a variety of various candid birthday and wedding photography sessions, whether it be for a little or spectacular wedding and birthdays. We have participated in many lovely weddings. We had the opportunity to go to several locations and take outdoor pre and post-wedding portraits for charming couples and children for their birthdays who added their presence to the photographs to make them even more remarkable.</i></p>
+        <button class=" h6 bg-danger text-light p-4 badge-pill "><b>Read More</b></button>
+        </div>
+      </div>
+    </section>
+    <section class="bg-dark p-5">
+      <div class="row mt-4">
+        <div class=" col col-md-3">
+          <img src="images/akka-1.jpg" alt="" class="img-fluid">         
+        </div>
+        <div class=" col col-md-3">
+          <img src="images/frooti.jpg" alt="" class="img-fluid">         
+        </div>
+        <div class=" col col-md-3">
+          <img src="images/havinsh-1.jpg" alt="" class="img-fluid">         
+        </div>
+        <div class=" col col-md-3">
+          <img src="images/akka-2.jpg" alt="" class="img-fluid">         
+        </div>        
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <img src="images/madhu anna.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+          <img src="images/havinsh-6.jpg" alt="" class="img-fluid ">
+        </div>
+        <div class="col-md-3">
+          <img src="images/swathi akka-4.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+          <img src="images/havinsh-3.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <img src="images/akka-3.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+          <img src="images/chintu.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+          <img src="images/havinsh-8.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-3 p-4 text-center bg-light">
+          <a href="#"><h2 class="display-5 mt-4 "><b>View More</b></h2>
+        <i class="fa fa-arrow-circle-right fa-3x p-4"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="bg-warning p-4">
+       <div class="row">
+          <div class="col-md-9 mt-4">
+            <h2 class="display-5"><b>BOOK US NOW </b></h2>
+            <p class="h5"><i>Get in touch with us and let us make your special day an event of your lifetime using our digital eye.</i></p>
+          </div>
+          <div class="col-md-3 mt-4">
+           <h2> <i class="fa fa-phone"></i> +91 7729059116</h2>
+          </div>
+       </div>
+    </section>
+    <section class="bg-dark p-4">
+      <div class="row">
+        <div class="col  mt-4">
+         <p class="h3 display-5 text-light text-center"><b>Copyrights  &copy; 2012 – 2024  Unique Photography.</b></p>                   
+          <p class="h6 text-light text-center"><i> All Rights Reserved • Terms and Conditions • Privacy Policy</i></p>              
+          <p class="h6 text-light text-center"><i> Developed and Maintained by <a href="#">Shivaprasad Nune</a></i></p>         
+         </div>
+         </div>
+         <div class="row">
+         <div class="col text-center mt-4 ">    
+          <i class="fa fa-facebook-square fa-4x p-2 text-light "></i>
+          <i class="fa fa-youtube-square fa-4x p-2 text-light "></i>
+          <i class="fa fa-twitter-square fa-4x p-2 text-light"></i>
+          <i class="fa fa-google-plus-square fa-4x p-2 text-light"></i>
+          <i class="fa fa-instagram fa-4x p-2 text-light"></i>
+         </div>
+      </div>
+    </section>
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="mdb.js"></script>
+    <script>
+      $('.carousel').carousel({
+         interval:5000
+      })
+    </script
+</body>
+</html>
